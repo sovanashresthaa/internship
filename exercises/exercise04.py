@@ -1,4 +1,5 @@
 #factorial 
+
 n = int(input("Enter number: "))
 
 fact = 1

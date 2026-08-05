@@ -5,5 +5,4 @@ student = {
     "Age": 20,
     "Course": "BCT"
 }
-
 print(student)

@@ -1,9 +1,7 @@
 #count word frequency
 
 sentence = "python is fun and python is easy"
-
 words = sentence.split()
-
 count = {}
 
 for word in words:
