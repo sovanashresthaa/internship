@@ -1,5 +1,17 @@
-#append text to a file
+# Write a function to check whether a string is a palindrome.
 
-with open("sample.txt", "a") as file:
-    file.write("\nWelcome to Python!")
-print("Text appended successfully.")
+def is_palindrome(text):
+    text = text.lower()
+
+    if text == text[::-1]:
+        return True
+    else:
+        return False
+
+
+word = input("Enter a word: ")
+
+if is_palindrome(word):
+    print("Palindrome")
+else:
+    print("Not a palindrome")

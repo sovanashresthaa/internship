@@ -1,10 +1,13 @@
-#count word frequency
+# Find all prime numbers between 1 and 100.
 
-sentence = "python is fun and python is easy"
-words = sentence.split()
-count = {}
+for number in range(2, 101):
 
-for word in words:
-    count[word] = count.get(word, 0) + 1
+    is_prime = True
 
-print(count)
+    for i in range(2, int(number ** 0.5) + 1):
+        if number % i == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(number)

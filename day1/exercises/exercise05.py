@@ -1,10 +1,13 @@
-#Fibonacci Series
+# Print the student with the highest mark.
 
-n = 10
+students = {
+    "Alice": 85,
+    "Bob": 92,
+    "Charlie": 88,
+    "David": 95
+}
 
-a = 0
-b = 1
+highest = max(students, key=students.get)
 
-for i in range(n):
-    print(a)
-    a, b = b, a + b
+print("Top Student:", highest)
+print("Marks:", students[highest])

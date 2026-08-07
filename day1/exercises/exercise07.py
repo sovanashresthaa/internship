@@ -1,7 +1,16 @@
-#largest number among list 
+# Merge two dictionaries into one.
 
-numbers = [23, 11, 45, 67, 34]
+dict1 = {
+    "a": 1,
+    "b": 2
+}
 
-largest = max(numbers)
+dict2 = {
+    "c": 3,
+    "d": 4
+}
 
-print("Largest:", largest)
+merged_dict = dict1.copy()
+merged_dict.update(dict2)
+
+print(merged_dict)

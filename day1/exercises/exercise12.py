@@ -1,6 +1,6 @@
-#Multiplication table 
+# Print a pyramid pattern of stars.
 
-number = int(input("Enter a number: "))
+rows = 5
 
-for i in range(1, 11):
-    print(f"{number} x {i} = {number * i}")
+for i in range(1, rows + 1):
+    print("*" * i)

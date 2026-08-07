@@ -1,17 +1,14 @@
-#prime number
+# Write a function that returns the factorial of a number.
 
-number = int(input("Enter a number: "))
-if number < 2:
-    print("Not Prime")
-else:
-    prime = True
+def factorial(number):
+    result = 1
 
-    for i in range(2, int(number ** 0.5) + 1):
-        if number % i == 0:
-            prime = False
-            break
+    for i in range(1, number + 1):
+        result = result * i
 
-    if prime:
-        print("Prime")
-    else:
-        print("Not Prime")
+    return result
+
+
+num = int(input("Enter a number: "))
+
+print("Factorial =", factorial(num))

@@ -1,7 +1,10 @@
-#Maximum among them 
+# Reverse a list without using reverse() or slicing.
 
-a = int(input("First: "))
-b = int(input("Second: "))
-c = int(input("Third: "))
+numbers = [10, 20, 30, 40, 50]
 
-print(max(a, b, c))
+reversed_list = []
+
+for item in numbers:
+    reversed_list = [item] + reversed_list
+
+print(reversed_list)

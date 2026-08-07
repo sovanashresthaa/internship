@@ -1,7 +1,6 @@
-#Remove duplicates
+# Print the multiplication table (1–10) for a user-entered number.
 
-numbers = [1, 2, 2, 3, 4, 4, 5]
+number = int(input("Enter a number: "))
 
-unique = list(set(numbers))
-
-print(unique)
+for i in range(1, 11):
+    print(number, "x", i, "=", number * i)

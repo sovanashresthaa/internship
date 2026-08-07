@@ -1,8 +1,7 @@
-#odd or even
+# Remove all duplicate elements from a list.
 
-num = int(input("Enter a number: "))
+numbers = [1, 2, 2, 3, 4, 4, 5, 6, 6]
 
-if num % 2 == 0:
-    print("Even")
-else:
-    print("Odd")
+unique_numbers = list(set(numbers))
+
+print(unique_numbers)

@@ -1,10 +1,15 @@
-#factorial 
+# Count how many even and odd numbers are in a list.
 
-n = int(input("Enter number: "))
+numbers = [10, 15, 22, 33, 48, 51, 64]
 
-fact = 1
+even_count = 0
+odd_count = 0
 
-for i in range(1, n + 1):
-    fact *= i
+for number in numbers:
+    if number % 2 == 0:
+        even_count += 1
+    else:
+        odd_count += 1
 
-print(fact)
+print("Even:", even_count)
+print("Odd:", odd_count)

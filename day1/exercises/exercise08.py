@@ -1,6 +1,14 @@
-#reverse a list
+# Invert a dictionary (swap keys and values).
 
-numbers = [1, 2, 3, 4, 5]
-numbers.reverse()
+student = {
+    "Alice": 85,
+    "Bob": 90,
+    "Charlie": 95
+}
 
-print(numbers)
+inverted = {}
+
+for key, value in student.items():
+    inverted[value] = key
+
+print(inverted)
