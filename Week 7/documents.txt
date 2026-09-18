@@ -1,0 +1,17 @@
+Python is a high-level programming language known for its simple syntax and readability. It is widely used for web development, data analysis, automation, artificial intelligence, and machine learning.
+
+Artificial intelligence is a branch of computer science that focuses on creating systems that can perform tasks that normally require human intelligence. These tasks include learning, reasoning, problem solving, and language processing.
+
+Machine learning is a part of artificial intelligence that allows computers to learn patterns from data without being explicitly programmed for every task. Machine learning can be used to make predictions and support decision making.
+
+Embeddings convert text into numerical vectors that represent the meaning of the text. Similar pieces of text have similar vector representations. Embeddings are commonly used for semantic search and recommendation systems.
+
+A vector database is a database designed to store and search numerical vectors. It can retrieve information based on vector similarity and is useful for semantic search and retrieval augmented generation systems.
+
+Retrieval Augmented Generation, commonly called RAG, is a technique that retrieves relevant information from a knowledge source and provides that information to a language model before generating an answer. RAG can help a model produce answers based on specific retrieved context.
+
+Qdrant is a vector database that can store embeddings and perform similarity searches. It can be used locally or as a hosted service for applications that require vector search.
+
+Nepal is known for the Himalayas, including Mount Everest. It has many trekking routes and diverse landscapes. Tourism and trekking are important parts of Nepal's economy.
+
+Voyage Nepal is a smart travel companion project designed to help travelers with travel-related information. It can provide useful information about destinations, routes, and travel planning.
